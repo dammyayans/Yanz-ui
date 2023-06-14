@@ -12,11 +12,16 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
         name: "name",
         message: "What is the name of the component?",
       },
+      {
+        type: "input",
+        name: "class",
+        message: "What is the class[atom,molecule,organism] of the component?",
+      },
     ],
     actions: [
       {
         type: "add",
-        path: "{{pascalCase name}}.tsx",
+        path: "{{lowerCase class}}s/{{pascalCase name}}/.tsx",
         templateFile: "templates/component.hbs",
       },
       {
