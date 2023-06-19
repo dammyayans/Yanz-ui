@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["../ui-library/src/*", "../ui-components/src/*"]
+    }
+  }
+  // "include": [".ts", ".tsx"]
+}

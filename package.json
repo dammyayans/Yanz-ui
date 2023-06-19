@@ -1,17 +1,19 @@
 {
   "private": true,
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --cache-dir=.turbo-cache",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start": "cd ./packages/storybook && yarn storybook",
+    "generate:component": "cd ./packages/ui-components && yarn generate:component && cd ../../"
   },
   "devDependencies": {
     "@turbo/gen": "^1.9.7",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "prettier": "^2.5.1",
-    "turbo": "latest"
+    "turbo": "^1.10.3"
   },
   "name": "yanz-ui",
   "packageManager": "yarn@1.22.19",
