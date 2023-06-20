@@ -12,6 +12,7 @@ const config = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "storybook-addon-paddings",
   ],
   framework: {
     name: "@storybook/react-vite",

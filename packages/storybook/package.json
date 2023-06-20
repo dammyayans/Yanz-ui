@@ -10,6 +10,7 @@
     "@storybook/addon-essentials": "^7.0.22",
     "@storybook/addon-interactions": "^7.0.22",
     "@storybook/addon-links": "^7.0.22",
+    "@storybook/addon-viewport": "^7.0.22",
     "@storybook/blocks": "^7.0.22",
     "@storybook/react": "^7.0.22",
     "@storybook/react-vite": "^7.0.22",
@@ -18,6 +19,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "storybook-addon-paddings": "^5.0.0",
     "vite": "^4.3.9"
   },
   "scripts": {

@@ -1919,7 +1919,7 @@
     "@storybook/preview-api" "7.0.22"
     "@storybook/theming" "7.0.22"
 
-"@storybook/addon-viewport@7.0.22":
+"@storybook/addon-viewport@7.0.22", "@storybook/addon-viewport@^7.0.22":
   version "7.0.22"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-7.0.22.tgz#5d91f974688f23a68e16e7a30e1411094a99bb20"
   integrity sha512-JeS7XppdkozvVr8anVYZ72Qi1qu2pAGLhiHFX25pdfgdRigS7dHnIaxJ/zm0j5TmshgVrOrvRhW2VHan8j6IxQ==
@@ -6079,7 +6079,7 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-memoizerific@^1.11.3:
+memoizerific@^1.11.0, memoizerific@^1.11.3:
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/memoizerific/-/memoizerific-1.11.3.tgz#7c87a4646444c32d75438570905f2dbd1b1a805a"
   integrity sha512-/EuHYwAPdLtXwAwSZkh/Gutery6pD2KYd44oQLhAvQp/50mpyduZh8Q7PYHXTCJ+wuXxt7oij2LXyIJOOYFPog==
@@ -7540,6 +7540,13 @@ store2@^2.14.2:
   version "2.14.2"
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.2.tgz#56138d200f9fe5f582ad63bc2704dbc0e4a45068"
   integrity sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==
+
+storybook-addon-paddings@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-paddings/-/storybook-addon-paddings-5.0.0.tgz#adc148fc6b6c3c8ef3778ccb55a0d9f196efcd4e"
+  integrity sha512-+4x9zlOS82tHg4wmm1j67kiwDho+l7CfOttshczlcFQCOP2mHM3PrpXnxbNus5v6xf46Qh0vnYzD+wg0tfZY3Q==
+  dependencies:
+    memoizerific "^1.11.0"
 
 storybook@^7.0.22:
   version "7.0.22"
