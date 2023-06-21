@@ -1,5 +1,6 @@
 /** @type { import('@storybook/react').Preview } */
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
+import "../tailwind.css";
 
 const preview = {
   parameters: {
