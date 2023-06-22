@@ -6,8 +6,7 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "start": "cd ./packages/storybook && yarn storybook",
-    "generate:component": "cd ./packages/ui-components && yarn generate:component && cd ../../",
-    "chromatic": "npx chromatic --project-token=chpt_aaf86948293c252"
+    "generate:component": "cd ./packages/ui-components && yarn generate:component && cd ../../"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
