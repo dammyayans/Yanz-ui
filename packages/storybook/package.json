@@ -17,6 +17,7 @@
     "@storybook/react-vite": "^7.0.22",
     "@storybook/testing-library": "^0.0.14-next.2",
     "autoprefixer": "^10.4.14",
+    "chromatic": "^6.19.8",
     "eslint-plugin-storybook": "^0.6.12",
     "postcss": "^8.4.24",
     "prop-types": "^15.8.1",
@@ -29,5 +30,7 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook@1.0.0"
 }
